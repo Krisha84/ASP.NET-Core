@@ -187,19 +187,19 @@ namespace ConsoleApp1
                 case 10:  // Program_10 :
             
                         Console.WriteLine("Enter the number 1 : ");
-                        int e = Convert.ToInt32(Console.ReadLine());
+                        int num1 = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Enter the number 2 : ");
-                        int f = Convert.ToInt32(Console.ReadLine());
+                        int num2 = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Enter the number 3 : ");
-                        int g = Convert.ToInt32(Console.ReadLine());
+                        int num3 = Convert.ToInt32(Console.ReadLine());
 
-                        int max = (e > f ? (e > g ? e : g) : (f > g ? f : g));
+                        int max = (num1 > num2 ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3));
                         Console.WriteLine("Max : " + max);
                         break;
 
 
                 default:
-                        Console.WriteLine("Oops !! Invail Choice...");
+                        Console.WriteLine("Oops !! Invalid Choice...");
                         break;
 
             }
