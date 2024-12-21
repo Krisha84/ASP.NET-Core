@@ -13,8 +13,8 @@ namespace ConsoleApp2
 
         public Rectangle(int length, int width)
         {
-            Length = length;
-            Width = width;
+            this.Length = length;
+            this.Width = width;
         }
 
         public int CalculateArea()
