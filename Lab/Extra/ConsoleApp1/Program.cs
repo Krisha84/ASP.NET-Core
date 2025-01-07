@@ -15,8 +15,6 @@ namespace ConsoleApp1
             Console.WriteLine("Enter choice for execute program : ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
-            while (true)
-            {
                 switch(choice)
                 {
                     case 1: // Program-1 :
@@ -127,6 +125,5 @@ namespace ConsoleApp1
                              break;
                 }
             }
-        }
     }
 }
